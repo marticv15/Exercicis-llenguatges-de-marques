@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Biblioteca [
+<!ELEMENT Biblioteca (Llibre+, tiquet*)>
+<!ELEMENT Llibre EMPTY>
+<!ATTLIST Llibre 
+          Titol CDATA #REQUIRED
+          ISBN ID #REQUIRED
+          Autor CDATA #REQUIRED
+          AnyPublicacio CDATA #REQUIRED
+          Editorial CDATA #REQUIRED
+          >
+<!ELEMENT tiquet EMPTY>
+<!ATTLIST tiquet 
+        compres IDREFS #REQUIRED
+          >
+
+<!ELEMENT Titol (#PCDATA)>
+<!ELEMENT ISBN (#PCDATA)>
+<!ELEMENT Autor (#PCDATA)>
+<!ELEMENT AnyPublicacio (#PCDATA)>
+<!ELEMENT Editorial (#PCDATA)>
+]>
+
+<Biblioteca>
+  <Llibre Titol="L'origen de les espècies" ISBN="A9788497592581" Autor="Joan Gomà" AnyPublicacio="2020" Editorial="Editorial Catalana"/>
+  <Llibre Titol="La Celestina" ISBN="A978849759251" Autor="Pep" AnyPublicacio="2022" Editorial="Editorial Catalana" />
+  <Llibre Titol="El nom de la Rosa" ISBN="A8481301264" Autor="Josep Maria" AnyPublicacio="2021" Editorial="Editorial Valenciana" />
+
+  <tiquet compres="A9788497592581" />
+  <tiquet compres="A978849759251" />
+  <tiquet compres="A8481301264" />
+</Biblioteca>
