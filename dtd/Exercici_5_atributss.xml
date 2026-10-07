@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Empresa [
+<!ELEMENT Empresa (Empleat+)>
+<!ELEMENT Empleat (Cognom_1,Cognom_2,Nom,(CorreuElectronic | Telefon), Adreca)>
+<!ELEMENT Cognom_1 (#PCDATA)>
+<!ELEMENT Cognom_2 (#PCDATA)>
+<!ELEMENT Nom (#PCDATA)>
+<!ATTLIST Empleat 
+          NumEmpleat CDATA #REQUIRED>
+
+<!ELEMENT CorreuElectronic (#PCDATA)>
+<!ELEMENT Telefon (#PCDATA)>
+<!ELEMENT Adreca EMPTY>
+<!ATTLIST Adreca 
+          Carrer CDATA #REQUIRED
+          Ciutat CDATA #IMPLIED
+          CP CDATA #REQUIRED
+          >
+
+<!ELEMENT Carrer (#PCDATA)>
+<!ELEMENT Ciutat (#PCDATA)>
+<!ELEMENT CP (#PCDATA)>
+]>
+
+<Empresa>
+  <Empleat NumEmpleat="32546353">
+    <Cognom_1>Perez</Cognom_1>
+    <Cognom_2>Pujol</Cognom_2>
+    <Nom>Joan</Nom>
+    <Telefon>666 555 444</Telefon>
+    <Adreca Carrer="Carrer de Pau Claris, 121" CP="08009" Ciutat="Barcelona"/>
+  </Empleat>
+</Empresa>
