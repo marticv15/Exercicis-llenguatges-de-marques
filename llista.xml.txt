@@ -1,0 +1,45 @@
+<?xml version= "1.0 encoding=UTF=8" standalona="yes"?>
+<info>
+	<gimnasos>
+	  <gimnas>
+		  <nom>El Dor</nom>
+		  <activitats>
+		    	<activitat>crossfit</activitat>
+			  <activitat>pilates</activitat>
+			  <activitat>ioga</activitat>
+		  </activitats>
+		  <ubicacio>
+			  <carrer>avinguda Hipotenusa </carrer>
+			  <numero>232</numero>
+		  </ubicacio>
+		  <propietari>Inuyasha</propietari>
+		  <valoracio>4,5</valoracio>
+	  </gimnas>
+	  
+	  <gimnas>
+	    <nom>Aquopolis</nom>
+	    <ubicacio>
+			  <carrer>carrer Tangent </carrer>
+			  <numero>111</numero>
+		  </ubicacio>
+		  <propietari>Arthur Connan</propietari>
+		</gimnas>
+		
+		<gimnas>
+		  <nom>Muscle Man</nom>
+		  <activitats>   
+		    	<activitat>crossfit</activitat>
+			  <activitat>halterofília</activitat>
+			  <activitat>natació</activitat>
+			   <activitat>atletisme</activitat>
+		  </activitats>
+		  <ubicacio>
+			  <carrer>Av. Angle</carrer>
+			  <numero>222</numero>
+		  </ubicacio>
+		  <propietari>Son Goku</propietari>
+		  <valoracio>3,5</valoracio>
+		  <num_ressenyes>256</num_ressenyes>
+		</gimnas>
+	</gimnasos>
+</info>

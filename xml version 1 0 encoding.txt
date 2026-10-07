@@ -1,0 +1,16 @@
+<?xml version= "1.0 encoding=UTF=8" standalona="yes"?>
+<info>
+	<gimnasos>
+		<nom>El Dor</nom>
+		<activitats>
+			<activitat>crossfit</activitat>
+			<activitat>pilates>/activitat>
+			<activitat>ioga>/activitat>
+		</activitats>
+		<ubicacio>
+			<carrer>avinguda Hipotenusa </carrer>
+			<numero>232</numero>
+		</ubicacio>
+		<propietari>Inuyasha</propietari>
+		<valoracio>4,5</valoracio>
+	

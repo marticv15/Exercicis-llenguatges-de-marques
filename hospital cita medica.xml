@@ -1,0 +1,31 @@
+<hospital>
+	<cita_medica>
+		<pacient>
+			<nom>Martí</nom>
+			<cognom>Calvet</cognom>
+			<data_cita>05/12</data_cita>
+			<hora_cita>6pm</horac_cita>
+			<telefon>640354361</telefon>
+		</pacient>
+	<cita_medica>
+	
+	<cita_medica>
+		<pacient>
+			<nom>Pep</nom>
+			<cognom>Gomez</cognom>
+			<data_cita>09/11</data_cita>
+			<hora_cita>3pm</horac_cita>
+			<telefon>640343561</telefon>
+		</pacient>
+	<cita_medica>
+	
+	<cita_medica>
+		<pacient>
+			<nom>Marc</nom>
+			<cognom>Pujol</cognom>
+			<data_cita>21/10</data_cita>
+			<hora_cita>2pm</horac_cita>
+			<telefon>687658661</telefon>
+		</pacient>
+	<cita_medica>
+</hospital>
