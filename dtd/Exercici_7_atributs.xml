@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE matricula [
+   <!ELEMENT matricula (curs)>
+   <!ELEMENT curs EMPTY>
+   <!ATTLIST curs 
+              any (2019 | 2020 | 2021 | 2022) #REQUIRED
+              mes (gener | febrer | març | abril | maig | juny | juliol | agost | setembre | octubre | novembre | desembre) #REQUIRED
+              >
+   <!ELEMENT tenis (#PCDATA)>
+]>
+
+<matricula>
+   <curs any="2022" mes="març" />
+</matricula>
